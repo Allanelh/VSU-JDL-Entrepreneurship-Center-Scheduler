@@ -1,6 +1,7 @@
-
 import React, { useState, useRef, useEffect } from 'react';
-import { getAIResponse } from '../services/gemini';
+// FIXED: Removed "../services/"
+import { getAIResponse } from './gemini';
+// FIXED: Removed "../components/"
 import { BotIcon, SendIcon } from './Icons';
 
 export const AIChatAssistant: React.FC = () => {
